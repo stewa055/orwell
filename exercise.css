@@ -1,0 +1,66 @@
+
+.back{
+  width: 700px;
+  height:720px;
+  margin-left: 275px;
+  margin-top: 50px;
+  background-color: red;
+
+  overflow: visible;
+}
+
+.eye {
+ width: 500px;
+ height: 500px;
+ background: white;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(315deg);
+ margin-left: 0px;
+ margin-top: 50px;
+ border: 1px solid black;
+ border-radius: 75% 0;
+ cursor: pointer;
+  overflow: hidden;
+
+
+}
+.iris  {
+ width: 300px;
+ height: 300px;
+ background-color: #222f3e;
+ border-radius: 50%;
+ border: 60px solid #31BAFE;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+}
+.lid {
+ width: 800px;
+ height: 800px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(-45deg);
+ z-index: 1;
+   overflow:
+
+}
+.lid span {
+ display: block;
+ width: 100%;
+ height: 0%;
+ background: #ef888c;
+ border-radius: 0 0 60% 60%;
+ transition: 0.4s all;
+}
+.eye:hover .lid span {
+ height: 100%;
+}
+
+font-family: 'Heebo', sans-serif;
+font-family: 'Merriweather', serif;
+/* All CSS styles go here */
